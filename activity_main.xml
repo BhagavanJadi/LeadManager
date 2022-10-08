@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <View
+            android:id="@+id/barview"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/teal_200"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1482dp">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="*bhagavan jadi*"
+                android:textColor="@color/teal_200"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="188dp"
+                android:text="@string/bold_letters"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/leadmanager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="133dp"
+                android:text="@string/Application_Name"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="186dp"
+                android:layout_height="34dp"
+                android:layout_alignBottom="@+id/leadmanager"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="-47dp"
+                android:text="07-10-2022"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/date"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-36dp"
+                android:text="@string/Over_view"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/overviewexplain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/overview"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-57dp"
+                android:text="I have Understood this Problem Statement as to design this Document ,I Have Used Android Studio to Design this Document
+" />
+
+            <TextView
+                android:id="@+id/Features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/overviewexplain"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-41dp"
+                android:text="@string/Features"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/fearyresexplain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/Features"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-35dp"
+                android:text="I have used scroball bar,linear layout and relative layout">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/wireFreme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fearyresexplain"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-60dp"
+                android:text="@string/WIREFRAME"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="205dp"
+                android:layout_height="163dp"
+                android:layout_alignBottom="@id/wireFreme"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="-176dp"
+                android:src="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="205dp"
+                android:layout_height="163dp"
+                android:layout_alignBottom="@id/image1"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="-176dp"
+                android:src="@drawable/image2" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="205dp"
+                android:layout_height="163dp"
+                android:layout_alignBottom="@id/image2"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="-176dp"
+                android:src="@drawable/image3" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="205dp"
+                android:layout_height="163dp"
+                android:layout_alignBottom="@id/image3"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="-176dp"
+                android:src="@drawable/image4" />
+
+            <TextView
+                android:id="@+id/UserFlow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/image4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-55dp"
+                android:text="@string/USERFLOW"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/UserFlowExpalin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/UserFlow1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-70dp"
+                android:text="i have used scroll view to add many more items in the scroll to down and i have used linear layout realtive layout textviews imagesview etc.."></TextView>
+            "
+
+            />
+
+            <TextView
+                android:id="@+id/otherlinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/overviewexplain"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-1002dp"
+                android:text="@string/OTHERLINKS"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/otherlinks"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-66dp"
+                android:text="@string/Hyperlink" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
